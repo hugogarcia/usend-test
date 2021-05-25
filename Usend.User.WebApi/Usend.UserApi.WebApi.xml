@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Usend.UserApi.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Usend.UserApi.WebApi.Controllers.AuthenticationController.Authenticate(USend.UserApi.Application.Dto.AuthenticationDto)">
+            <summary>
+            Generate bearer token
+            </summary>
+            <param name="authentication"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.Get">
+            <summary>
+            Get all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.GetById(System.Guid)">
+            <summary>
+            Get user by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.GetByEmail(System.String)">
+            <summary>
+            Get user by email
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.Post(USend.UserApi.Application.Dto.CreateUserDto)">
+            <summary>
+            Create user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.Put(USend.UserApi.Application.Dto.UpdateUserDto)">
+            <summary>
+            Update user
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:Usend.UserApi.WebApi.Controllers.UserController.ChangeStatus(System.String)">
+            <summary>
+            Change user status - Activate or deactivate
+            </summary>
+            <param name="email"></param>
+        </member>
+    </members>
+</doc>

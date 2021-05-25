@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>USend.UserApi.Application</name>
+    </assembly>
+    <members>
+        <member name="P:USend.UserApi.Application.Dto.AuthenticationDto.Email">
+            <summary>
+            User e-mail
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.AuthenticationDto.Password">
+            <summary>
+            User password
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.Password">
+            <summary>
+            Password
+            <para>Minimum length: 8</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.CPF">
+            <summary>
+            Unformatted CPF
+            <para>Length: 11</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.Email">
+            <summary>
+            Email. Must be a valid email format.
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.Status">
+            <summary>
+            User status
+            <para>1 - Activated</para>
+            <para>2 - Deactivated</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.BirthDate">
+            <summary>
+            Birth date
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.CreateUserDto.Image">
+            <summary>
+            Image. Must be in base64 format
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.JwtDto.Access_token">
+            <summary>
+            Bearer token
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.JwtDto.Expires_in">
+            <summary>
+            Expiration time
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.CPF">
+            <summary>
+            Unformatted CPF. Key to find the user.
+            <param>It can't be informed with Email at the same time.</param>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.Email">
+            <summary>
+            Email. Must be a valid email format. Key to find the user.
+            <param>It can't be informed with CPF at the same time.</param>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.Password">
+            <summary>
+            Password
+            <para>Minimum length: 8</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.Status">
+            <summary>
+            User status
+            <para>1 - Activated</para>
+            <para>2 - Deactivated</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.BirthDate">
+            <summary>
+            Birth date
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UpdateUserDto.Image">
+            <summary>
+            Image. Must be in base64 format
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.CPF">
+            <summary>
+            CPF unformatted
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.Email">
+            <summary>
+            E-mail
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.Status">
+            <summary>
+            User status
+            <para>1 - Activated</para>
+            <para>2 - Deactivated</para>
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.BirthDate">
+            <summary>
+            Birth date
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.ImageUrl">
+            <summary>
+            Image URL location
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.CreatedOn">
+            <summary>
+            Created date
+            </summary>
+        </member>
+        <member name="P:USend.UserApi.Application.Dto.UserDto.UpdatedOn">
+            <summary>
+            Updated date
+            </summary>
+        </member>
+    </members>
+</doc>
